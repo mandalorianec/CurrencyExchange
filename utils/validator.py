@@ -162,6 +162,10 @@ class Validator:
             raise ValidationError
         if rate.count('.') > 1:
             raise ValidationError
+        try:
+            tmp = float(rate)
+        except Exception:
+            raise ValidationError
         if math.isnan(float(rate)):
             raise ValidationError
         if float(rate) <= 0:
