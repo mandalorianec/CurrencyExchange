@@ -22,7 +22,7 @@ REST API для описания валют и обменных курсов. П
 1) Склонировать репозиторий
 
 ```shell
-git clone https://github.com/mandalorianec/
+git clone https://github.com/mandalorianec/CurrencyExchange.git
 ```
 2) Скачать тестовый фронтенд https://github.com/zhukovsd/currency-exchange-frontend
 2) Загрузить на сервер удобным способом и настроить конфиг сервера или развернуть локально
